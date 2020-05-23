@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/x_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X: "
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/y_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y: "
+        android:textSize="50dp"
+        android:textColor="#FFCC80"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/z_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z: "
+        android:textSize="50dp"
+        android:textColor="#81D4FA"
+        />
+    <ImageView
+        android:id="@+id/face_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_emoji"
+        android:padding="50dp"
+        />
+
+</LinearLayout>
